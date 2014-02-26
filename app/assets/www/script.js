@@ -5,9 +5,7 @@ $(function(){
 	$(".connected").hide();
 	$(".stats").hide();
 	var date = new Date();
-	var hour = date.getHours();
-	var min = date.getMinutes();
-	var seconds = date.getSeconds();
+
 	alert(date);
 	alert(hour);
 	alert(min);
